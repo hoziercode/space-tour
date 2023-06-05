@@ -1,0 +1,44 @@
+
+/* left style */
+
+.crew-left{
+    gap: 1rem;
+    width: 50%;
+    padding-left: 6rem;
+}
+
+.crew-left>:nth-child(1){
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    font-family: 'Bellefair', serif;;
+}
+
+.crew-left>:nth-child(2){
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-family: 'Bellefair', serif;;
+}
+
+.crew-left>:nth-child(3){
+    font-size: 18px;
+    color: rgba(208, 214, 249, 1);
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/* right scetion */
+
+.crew-right{
+    width: 50%;
+}
+
+.crew-right>:nth-child(2){
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    height: 5px;
+}
+.crew-right>img{
+    width: 50%;
+}

@@ -1,0 +1,75 @@
+
+/* left style */
+.destina-left{
+    gap: 3rem;
+    width: 50%;
+    padding-left: 6rem;
+}
+
+.destina-left>:nth-child(1){
+    color: rgba(208, 214, 249, 0.6);
+   font-size: 28px;
+   line-height: 33px;
+   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.num{
+    font-size: 28px;
+    padding-right: 1rem;
+    color: rgba(255, 255, 255, 0.07);
+}
+
+
+/* right style */
+
+.destina-right{
+    width: 50%;
+    padding-left: 5rem;
+    padding-right: 4rem;
+}
+
+.destina-right>:nth-child(1){
+    padding-bottom: 0.4rem;
+    font-size: 100px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Bellefair', serif;
+}
+
+.destina-right>:nth-child(2){
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 30px;
+    color: rgba(208, 214, 249, 1);
+}
+
+.detail{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    display: flex;
+    width: 80%;
+    border: 3px solid rgba(56, 59, 75, 1);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+.detail>:nth-child(1){
+    width: 50%;
+}
+
+.detail>:nth-child(2){
+    width: 50%;
+}
+
+.detail-con{
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+}
+
+.detail-sub-con{
+    width: 55%;
+    font-size: 1.1rem;
+    color: rgba(208, 214, 249, 1) 
+}

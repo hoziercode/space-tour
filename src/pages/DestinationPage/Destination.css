@@ -1,0 +1,48 @@
+.desti-container{
+    padding-top: 7rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+
+.desti-container>:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    z-index: 10;
+    position: absolute;
+    top: 11rem;
+    right: 21.5rem;
+}
+
+
+.swiper-btn{
+    font-size: 1rem;
+    color: white;
+    border: 0;
+    background: transparent;
+}
+
+.swiper-btn.active{
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom: 2px solid #ffffff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.desti-container>:nth-child(1)>button:hover{
+    cursor: pointer;
+}
+
+.fade-swiper .swiper-slide {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .fade-swiper .swiper-slide-active {
+    opacity: 1;
+  }
