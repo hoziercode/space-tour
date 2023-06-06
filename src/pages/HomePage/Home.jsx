@@ -3,7 +3,7 @@ import './Home.css'
 
 function Home() {
   return (
-    <div className='innerWidth home-container' style={{backgroundImage: `url("assets/home/bg-d.jpg")`}}>
+    <div className='innerWidth home-container' style={{backgroundImage: window.innerWidth <= 768 ? `url("assets/home/bg-t.jpg")` : window.innerWidth <= 375 ? `url("assets/home/bg-m.jpg")` :`url("assets/home/bg-d.jpg")` }}>
      <div className='flexCenter innerWidth paddings home-sub-con'>
       {/* left section */}
         <div className='flexColStart home-left-section'>

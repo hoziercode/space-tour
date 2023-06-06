@@ -40,14 +40,14 @@ function Crew() {
     }
   };
   return (
-    <div style={{backgroundImage: `url("assets/crew/bg-dt.jpg")`}} className='crew'>
+    <div style={{backgroundImage: window.innerWidth <= 768 ? `url("assets/crew/bg-t.jpg")` : window.innerWidth <= 375 ? `url("assets/crew/bg-m.jpg")` :`url("assets/crew/bg-dt.jpg")` }} className='crew'>
       <div className='slider-btn'>
         <div onClick={goToCommander} className={activeSlide === 0 ? 'btn active' : 'btn'}></div>
         <div onClick={goToMission} className={activeSlide === 1 ? 'btn active' : 'btn'}></div>
         <div onClick={goToPilot} className={activeSlide === 2 ? 'btn active' : 'btn'}></div>
         <div onClick={goToFlict} className={activeSlide === 3 ? 'btn active' : 'btn'}></div>
       </div>
-      <div className='innerWidth paddings'>
+      <div className='innerWidth'>
         {
           <Swiper
           onSwiper={setSwiper}

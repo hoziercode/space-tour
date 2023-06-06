@@ -3,7 +3,7 @@ import './CrewCard.css';
 
 function CrewCard(probs) {
   return (
-    <div className='flexCenter innerWidth paddings crew-container'>
+    <div className='flexCenter innerWidth crew-container'>
          <p>{probs.index}</p>
         {/* left section */}
       <div className='flexColStart crew-left'>
@@ -13,13 +13,13 @@ function CrewCard(probs) {
         <p>
             {probs.name}
         </p>
-        <p  style={{width: '80%'}}>
+        <p>
             {probs.bio}
         </p>
       </div>
       {/* right section */}
       <div className='flexColCenter crew-right'>
-        <img src={probs.image} alt="" />
+        <img src={probs.image} alt="" className=''/>
         <div></div>
       </div>
     </div>

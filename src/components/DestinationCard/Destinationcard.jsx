@@ -18,7 +18,7 @@ function Destinationcard(probs) {
             {probs.description}
         </span>
         <div className='detail'>
-            <div>
+            <div className='flexColStart'>
                 <p  className='detail-sub-con'>
                 Avg. distance
                 </p>
@@ -27,7 +27,7 @@ function Destinationcard(probs) {
                 </p>
             </div>
             <div>
-            <div>
+            <div className='flexColStart'>
                 <p className='detail-sub-con'>
                 Est. travel time
                 </p>

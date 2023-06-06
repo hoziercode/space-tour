@@ -42,7 +42,7 @@ function Destination() {
 
   return (
     <div className='desti-container innerWidth' style={{backgroundImage: `url("assets/destination/bg-d.jpg")`}}>
-      <div >
+      <div className='same'>
         <button onClick={goToMoon} className={activeSlide === 0 ? 'swiper-btn active' : 'swiper-btn'}>MOON</button>
         <button onClick={goToMars} className={activeSlide === 1 ? 'swiper-btn active' : 'swiper-btn'}>MARS</button>
         <button onClick={goToEuropa} className={activeSlide === 2 ? 'swiper-btn active' : 'swiper-btn'}>EUROPA</button>

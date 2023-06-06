@@ -1,9 +1,9 @@
 .crew{
-    padding-top: 7rem;
+    padding-top: 10rem;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
     position: relative;
 }
 
@@ -11,9 +11,9 @@
    position: absolute;
    display: flex;
    z-index: 10;
-   top: 36rem;
-   left: 10rem;
-   width: 13%;
+   top: 80%;
+   left: 6%;
+   width: 15%;
    justify-content: space-around;
 }
 
@@ -29,8 +29,30 @@
  }
 
  .btn.active{
-    width: 15px;
-    height: 15px;
     background: white;
     border-radius: 50%;
+ }
+
+ @media (max-width: 887px) {
+   .crew{
+      height: 100%;
+      padding-top: 7rem;
+   }
+   .slider-btn{
+      top: 93%;
+      left: 30%;
+      width: 30%;
+   }
+
+   .btn{
+      width: 20px;
+      height: 20px;
+  }
+ }
+
+ @media (max-width:470px){
+   .slider-btn{
+      top: 92%;
+      width: 36%;
+   }
  }
